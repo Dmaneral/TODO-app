@@ -1,0 +1,35 @@
+@import url(../index.css);
+
+.addTodo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: var(--todo-bg-color);
+    box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.addCircle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--circle-color);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.input {
+    background-color: var(--todo-bg-color);
+    outline: none;
+    border: none;
+    width: 100%;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.25px;
+    color: var(--todo-text-color);
+}

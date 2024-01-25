@@ -1,0 +1,50 @@
+@import url(../index.css);
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: var(--todo-bg-color);
+    border-bottom: 2px solid var(--line-color);
+}
+
+.innerItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--circle-color);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.circle:hover {
+    background: linear-gradient(var(--todo-bg-color), var(--todo-bg-color)) padding-box,
+              linear-gradient(to right, #55DDFF, #C058F3) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.todoText {
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.25px;
+    color: var(--todo-text-color);
+    padding-top: 3px;
+}
+
+.deleteCross {
+    cursor: pointer;
+}

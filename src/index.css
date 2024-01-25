@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Josefin+Sans:wght@400;700&display=swap');
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#light {
+  --primary-color: #FAFAFA;
+  --bg-image: url(./assets/images/bg-desktop-light.jpg);
+  --todo-text-color: #494C6B;
+  --todo-bg-color: #FFFFFF;
+  --circle-color: #E3E4F1;
+  --line-color: #E3E4F1;
+  --items-left-color: #9495A5;
+  --completed-text-color: #D1D2DA;
+}
+
+#dark {
+  --primary-color: #171823;
+  --bg-image: url(./assets/images/bg-desktop-dark.jpg); 
+  --todo-text-color: #C8CBE7;
+  --todo-bg-color: #25273D;
+  --circle-color: #393A4B;
+  --line-color: #393A4B;
+  --items-left-color: #5B5E7E;
+  --completed-text-color: #4D5067;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
